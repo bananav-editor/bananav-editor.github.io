@@ -71,7 +71,7 @@
       <div class="glow glow-a" aria-hidden="true"></div>
       <div class="glow glow-b" aria-hidden="true"></div>
       <div class="hero-text">
-        <p class="eyebrow"><span class="dot"></span> In development · first public release coming soon</p>
+        <p class="eyebrow"><span class="dot"></span> Ultra Alpha · an early test build is out</p>
         <h1>Edit freely.<br><span class="accent">Meet BananaV.</span></h1>
         <p class="lead">A free and open-source video editor for Windows and Linux, written from scratch in Rust.
           Everything you need to cut, mix, color and finish your videos, in one fast timeline.</p>
@@ -188,27 +188,47 @@
       <div class="section-head">
         <p class="kicker">Download</p>
         <h2>Get BananaV</h2>
-        <p>The first public release is on its way. When it lands, the packages will be on GitHub Releases.
-          Follow the project to hear about it first.</p>
+        <p>The first build is out for Windows and Linux. The source code will be published soon, with the first public release.</p>
+      </div>
+      <div class="alpha" role="note">
+        <span class="alpha-tag">Ultra Alpha</span>
+        <p><strong>This is a very early test build.</strong> Expect missing features, bugs and crashes.
+          Don't use it for important work, keep copies of your media and projects,
+          and expect projects saved now not to open in later builds.
+          Tell us what breaks on <a href="https://discord.gg/vtC7Yasz98">Discord</a>.</p>
       </div>
       <div class="downloads">
         <article class="dl">
           <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3.5" y="4.5" width="17" height="12" rx="2"/><path d="M9 20h6M12 16.5V20"/></svg>
           <h3>Windows</h3>
-          <p>Windows 10 and 11, x64 and ARM64. A zip: unpack it and run BananaV.exe.</p>
-          <a class="btn btn-primary" href="https://github.com/acasoq-web/BananaV/releases" rel="noopener">Releases</a>
+          <p>Windows 10 and 11. A zip: unpack it and run BananaV.exe. The build is not signed yet: if Windows warns you, choose More info, then Run anyway.</p>
+          <div class="dl-buttons">
+            <a class="btn btn-primary" href="https://github.com/acasoq-web/BananaV/releases/download/v0.1.0-ultra-alpha.1/BananaV-0.1.0-ultra-alpha.1-windows-x64.zip">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v11M7 10.5l5 5 5-5M5 19.5h14"/></svg>
+              x64
+            </a>
+            <a class="btn btn-ghost" href="https://github.com/acasoq-web/BananaV/releases/download/v0.1.0-ultra-alpha.1/BananaV-0.1.0-ultra-alpha.1-windows-arm64.zip">ARM64</a>
+          </div>
+          <p class="dl-note">x64 for Intel and AMD processors, ARM64 for Snapdragon and other ARM ones.</p>
         </article>
         <article class="dl">
           <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3.5" y="4.5" width="17" height="12" rx="2"/><path d="M7.5 9l2.5 2-2.5 2M12 13h4.5M9 20h6M12 16.5V20"/></svg>
           <h3>Linux</h3>
-          <p>x64 and ARM64 AppImages: make the file executable and run it. No installation needed.</p>
-          <a class="btn btn-primary" href="https://github.com/acasoq-web/BananaV/releases" rel="noopener">Releases</a>
+          <p>An AppImage for any distribution since 2022: make the file executable and run it. No installation needed.</p>
+          <div class="dl-buttons">
+            <a class="btn btn-primary" href="https://github.com/acasoq-web/BananaV/releases/download/v0.1.0-ultra-alpha.1/BananaV-0.1.0-ultra-alpha.1-linux-x64.AppImage">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v11M7 10.5l5 5 5-5M5 19.5h14"/></svg>
+              x64
+            </a>
+            <a class="btn btn-ghost" href="https://github.com/acasoq-web/BananaV/releases/download/v0.1.0-ultra-alpha.1/BananaV-0.1.0-ultra-alpha.1-linux-arm64.AppImage">ARM64</a>
+          </div>
+          <p class="dl-note">x64 for Intel and AMD processors, ARM64 for ARM ones.</p>
         </article>
         <article class="dl">
           <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8.5 7 3.5 12l5 5M15.5 7l5 5-5 5M13.5 5l-3 14"/></svg>
           <h3>From source</h3>
-          <p>Build it yourself with Rust's cargo. The source code arrives with the first public release.</p>
-          <a class="btn btn-ghost" href="https://github.com/acasoq-web/BananaV" rel="noopener">Source code</a>
+          <p>Build it yourself with Rust's cargo. The source code will be published soon, with the first public release.</p>
+          <span class="btn btn-ghost is-soon" aria-disabled="true">Coming soon</span>
         </article>
       </div>
     </section>
@@ -280,6 +300,11 @@
       </div>
       <div class="news">
         <article class="post">
+          <time datetime="2026-10-23">October 23, 2026</time>
+          <h3>The first Ultra Alpha build</h3>
+          <p>The first build of BananaV is out for Windows and Linux, x64 and ARM64: a very early test build to try the editor and tell us what breaks.</p>
+        </article>
+        <article class="post">
           <time datetime="2026-10-22">October 22, 2026</time>
           <h3>BananaV is free software</h3>
           <p>BananaV will be released under the GNU General Public License, version 3 or later, with community guidelines for everyone who wants to take part.</p>
@@ -288,11 +313,6 @@
           <time datetime="2026-10-22">October 22, 2026</time>
           <h3>A new logo and a new icon set</h3>
           <p>BananaV has its official logo, and every icon of the interface was redrawn as vector art, sharp at any size and on any screen.</p>
-        </article>
-        <article class="post">
-          <time datetime="2026-10-21">October 21, 2026</time>
-          <h3>Automation for busses and sends</h3>
-          <p>Bus tracks and the Mixing Console's strips can now record their volume, pan, mute and sends as you play, like the tracks do.</p>
         </article>
       </div>
     </section>

@@ -180,6 +180,17 @@ a.card { text-decoration: none; display: block; }
 .spot-shot { margin: 0; border-radius: 20px; overflow: hidden; border: 1px solid var(--line); box-shadow: var(--shadow); background: var(--surface); }
 
 /* Downloads */
+.alpha { display: flex; gap: 18px; align-items: flex-start; margin: -16px 0 28px; padding: 20px 22px; border-radius: var(--radius);
+  border: 1px solid color-mix(in srgb, var(--yellow) 55%, transparent); background: color-mix(in srgb, var(--yellow) 10%, var(--surface)); }
+.alpha p { color: var(--muted); font-size: 16px; }
+.alpha strong { color: var(--text); }
+.alpha a { color: var(--accent-text); }
+.alpha-tag { flex: none; background: var(--yellow); color: var(--on-accent); font-weight: 800; font-size: 13px; letter-spacing: .08em; text-transform: uppercase; padding: 6px 12px; border-radius: 999px; }
+.dl-buttons { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 8px; }
+.dl-buttons .btn { margin-top: 0; }
+.dl .dl-note { font-size: 14px; flex: none; }
+.btn-ghost.is-soon { color: var(--muted); }
+.btn-ghost.is-soon:hover { border-color: var(--line); }
 .downloads { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; }
 .dl { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 32px 28px; display: flex; flex-direction: column; gap: 12px; }
 .dl > svg { width: 46px; height: 46px; color: var(--accent-text); stroke-width: 1.5; }
@@ -232,6 +243,7 @@ a.card { text-decoration: none; display: block; }
   .spot.reverse .spot-text { order: 0; }
   .downloads, .news { grid-template-columns: 1fr; }
   .donate-inner { flex-direction: column; text-align: center; }
+  .alpha { flex-direction: column; }
 }
 
 @media (max-width: 560px) {

@@ -4,6 +4,28 @@
 // and a button to the language menu in index.html.
 window.BANANAV_I18N = {
   "pt-BR": {
+    // The Ultra Alpha build.
+    "Ultra Alpha · an early test build is out": "Ultra Alpha · uma versão de teste inicial já saiu",
+    "The first build is out for Windows and Linux. The source code will be published soon, with the first public release.":
+      "A primeira versão já saiu para Windows e Linux. O código-fonte será publicado em breve, com a primeira versão pública.",
+    "An AppImage for any distribution since 2022: make the file executable and run it. No installation needed.":
+      "Um AppImage para qualquer distribuição de 2022 em diante: torne o arquivo executável e abra. Não precisa instalar.",
+    "x64 for Intel and AMD processors, ARM64 for ARM ones.": "x64 para processadores Intel e AMD, ARM64 para os ARM.",
+    "This is a very early test build.": "Esta é uma versão de teste muito inicial.",
+    "Expect missing features, bugs and crashes. Don't use it for important work, keep copies of your media and projects, and expect projects saved now not to open in later builds. Tell us what breaks on":
+      "Espere recursos faltando, bugs e travamentos. Não use em trabalhos importantes, guarde cópias das suas mídias e projetos, e saiba que projetos salvos agora podem não abrir nas próximas versões. Conte o que quebrou no",
+    "Windows 10 and 11. A zip: unpack it and run BananaV.exe. The build is not signed yet: if Windows warns you, choose More info, then Run anyway.":
+      "Windows 10 e 11. Um zip: descompacte e abra o BananaV.exe. A versão ainda não é assinada: se o Windows avisar, clique em Mais informações e depois em Executar assim mesmo.",
+    "x64 for Intel and AMD processors, ARM64 for Snapdragon and other ARM ones.":
+      "x64 para processadores Intel e AMD, ARM64 para Snapdragon e outros ARM.",
+    "Coming soon": "Em breve",
+    "Build it yourself with Rust's cargo. The source code will be published soon, with the first public release.":
+      "Compile você mesmo com o cargo do Rust. O código-fonte será publicado em breve, com a primeira versão pública.",
+    "October 23, 2026": "23 de outubro de 2026",
+    "The first Ultra Alpha build": "A primeira versão Ultra Alpha",
+    "The first build of BananaV is out for Windows and Linux, x64 and ARM64: a very early test build to try the editor and tell us what breaks.":
+      "A primeira versão do BananaV saiu para Windows e Linux, x64 e ARM64: uma versão de teste bem inicial para experimentar o editor e contar o que quebrou.",
+
     // The document and the attributes.
     "BananaV — Free and open-source video editor": "BananaV — Editor de vídeo gratuito e de código aberto",
     "BananaV is a free and open-source video editor for Windows and Linux, written in Rust: a track-based timeline, keyframes and envelopes, effects at every level, pro audio and color.":
