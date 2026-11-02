@@ -206,7 +206,12 @@ a.card { text-decoration: none; display: block; }
 .donate-inner h2 { font-size: clamp(28px, 3.6vw, 42px); font-weight: 800; margin-bottom: 8px; }
 .donate-inner p { font-size: 18px; color: #3d2a07; }
 .donate-inner .btn svg { fill: currentColor; stroke: none; }
+/* Ko-fi's cup is drawn in lines, its handle outside the cup. */
+.donate-inner .btn svg.cup { fill: none; stroke: currentColor; stroke-width: 2; stroke-linejoin: round; stroke-linecap: round; }
+.btn-outline-dark { border-color: #1b1c20; color: #1b1c20; background: transparent; }
+.btn-outline-dark:hover { background: rgba(27, 28, 32, .08); }
 .donate-actions { display: flex; flex-direction: column; align-items: center; gap: 8px; max-width: 260px; }
+.donate-actions .btn { width: 100%; }
 .donate-note { font-size: 13.5px; color: #3d2a07; text-align: center; line-height: 1.4; }
 
 /* News */

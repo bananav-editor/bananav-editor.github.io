@@ -150,9 +150,9 @@ window.BANANAV_I18N = {
       "Sem anúncios, sem assinaturas, sem recursos pagos. O BananaV é mantido por pessoas como você.",
     "Support the project": "Apoie o projeto",
     "Donations open soon": "Doações abrem em breve",
+    "Support on Ko-fi": "Apoiar no Ko-fi",
     "Donate with PIX": "Doar com PIX",
-    "From Brazil. More ways to give from other countries are coming soon.":
-      "Para doações do Brasil. Outras formas de doar, de outros países, chegam em breve.",
+    "Ko-fi from any country, PIX from Brazil.": "Ko-fi de qualquer país, PIX do Brasil.",
 
     // News.
     "What's new": "Novidades",
