@@ -5,9 +5,9 @@
 window.BANANAV_I18N = {
   "pt-BR": {
     // The Ultra Alpha build.
-    "Ultra Alpha · an early test build is out": "Ultra Alpha · uma versão de teste inicial já saiu",
-    "The first build is out for Windows and Linux. The source code will be published soon, with the first public release.":
-      "A primeira versão já saiu para Windows e Linux. O código-fonte será publicado em breve, com a primeira versão pública.",
+    "Ultra Alpha 2 · the second test build, and the source code": "Ultra Alpha 2 · a segunda versão de teste, e o código-fonte",
+    "Ultra Alpha 2 is out for Windows and Linux, and BananaV's source code is on GitHub.":
+      "A Ultra Alpha 2 saiu para Windows e Linux, e o código-fonte do BananaV está no GitHub.",
     "An AppImage for any distribution since 2022: make the file executable and run it. No installation needed.":
       "Um AppImage para qualquer distribuição de 2022 em diante: torne o arquivo executável e abra. Não precisa instalar.",
     "x64 for Intel and AMD processors, ARM64 for ARM ones.": "x64 para processadores Intel e AMD, ARM64 para os ARM.",
@@ -18,9 +18,14 @@ window.BANANAV_I18N = {
       "Windows 10 e 11. Um zip: descompacte e abra o BananaV.exe. A versão ainda não é assinada: se o Windows avisar, clique em Mais informações e depois em Executar assim mesmo.",
     "x64 for Intel and AMD processors, ARM64 for Snapdragon and other ARM ones.":
       "x64 para processadores Intel e AMD, ARM64 para Snapdragon e outros ARM.",
-    "Coming soon": "Em breve",
-    "Build it yourself with Rust's cargo. The source code will be published soon, with the first public release.":
-      "Compile você mesmo com o cargo do Rust. O código-fonte será publicado em breve, com a primeira versão pública.",
+    "Build it yourself with Rust's cargo: the source code is on GitHub, under the GPL.":
+      "Compile você mesmo com o cargo do Rust: o código-fonte está no GitHub, sob a GPL.",
+    "Build from source": "Compilar o código",
+    "November 2, 2026": "2 de novembro de 2026",
+    "Ultra Alpha 2, and the source code": "A Ultra Alpha 2, e o código-fonte",
+    "The second test build brings DVD authoring, motion tracking and stabilization, 3D compositing, studio audio and about a hundred effects and transitions remade. And BananaV's source code is now public on GitHub.":
+      "A segunda versão de teste traz autoria de DVD, rastreamento e estabilização de movimento, composição 3D, áudio de estúdio e uns cem efeitos e transições refeitos. E o código-fonte do BananaV agora é público no GitHub.",
+    "Read what changed": "Veja o que mudou",
     "October 23, 2026": "23 de outubro de 2026",
     "The first Ultra Alpha build": "A primeira versão Ultra Alpha",
     "The first build of BananaV is out for Windows and Linux, x64 and ARM64: a very early test build to try the editor and tell us what breaks.":
@@ -119,8 +124,6 @@ window.BANANAV_I18N = {
     "x64 and ARM64 AppImages: make the file executable and run it. No installation needed.":
       "AppImages x64 e ARM64: torne o arquivo executável e abra. Não precisa instalar.",
     "From source": "Pelo código-fonte",
-    "Build it yourself with Rust's cargo. The source code arrives with the first public release.":
-      "Compile você mesmo com o cargo do Rust. O código-fonte chega com a primeira versão pública.",
 
     // Get involved.
     "Made by people who edit": "Feito por quem edita",
@@ -133,8 +136,8 @@ window.BANANAV_I18N = {
     "Found something broken? Tell us how to make it happen and we will hunt it down.":
       "Achou algo quebrado? Conte como fazer acontecer e nós vamos atrás.",
     "Write code": "Escreva código",
-    "BananaV is written in Rust. Say hello in the development channel on Discord and we will help you get started.":
-      "O BananaV é escrito em Rust. Dê um oi no canal de desenvolvimento do Discord e nós ajudamos você a começar.",
+    "BananaV is written in Rust, and its code is on GitHub. Read the contributing guide, say hello on Discord, and we will help you get started.":
+      "O BananaV é escrito em Rust, e o código está no GitHub. Leia o guia de contribuição, dê um oi no Discord e nós ajudamos você a começar.",
     "Translate": "Traduza",
     "Help BananaV speak your language. Every interface text can be translated.":
       "Ajude o BananaV a falar o seu idioma. Todo texto da interface pode ser traduzido.",
@@ -160,11 +163,8 @@ window.BANANAV_I18N = {
     "October 22, 2026": "22 de outubro de 2026",
     "October 21, 2026": "21 de outubro de 2026",
     "BananaV is free software": "O BananaV é software livre",
-    "BananaV will be released under the GNU General Public License, version 3 or later, with community guidelines for everyone who wants to take part.":
-      "O BananaV será lançado sob a Licença Pública Geral GNU, versão 3 ou posterior, com regras de comunidade para todos que quiserem participar.",
-    "A new logo and a new icon set": "Logo nova e ícones novos",
-    "BananaV has its official logo, and every icon of the interface was redrawn as vector art, sharp at any size and on any screen.":
-      "O BananaV ganhou sua logo oficial, e todos os ícones da interface foram redesenhados como vetores, nítidos em qualquer tamanho e em qualquer tela.",
+    "BananaV is released under the GNU General Public License, version 3 or later, with community guidelines for everyone who wants to take part.":
+      "O BananaV é distribuído sob a Licença Pública Geral GNU, versão 3 ou posterior, com regras de comunidade para todos que quiserem participar.",
     "Automation for busses and sends": "Automação para barramentos e envios",
     "Bus tracks and the Mixing Console's strips can now record their volume, pan, mute and sends as you play, like the tracks do.":
       "As trilhas de barramento e os canais do console de mixagem agora gravam volume, pan, mudo e envios enquanto o projeto toca, como as trilhas.",
@@ -176,6 +176,8 @@ window.BANANAV_I18N = {
     "About": "Sobre",
     "License (GPL v3)": "Licença (GPL v3)",
     "Code of Conduct": "Código de Conduta",
+    "Contributing": "Como contribuir",
+    "Changelog": "Histórico de mudanças",
     "Security": "Segurança",
     "BananaV is free software, released under the GNU General Public License, version 3 or later. The BananaV name and logo are the project's marks.":
       "O BananaV é software livre, distribuído sob a Licença Pública Geral GNU, versão 3 ou posterior. O nome e a logo do BananaV são marcas do projeto."
